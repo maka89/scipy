@@ -30,7 +30,7 @@ def levinson(dz[::1] a, dz[::1] b):
 
         [ a0    a1   a2  a3  a4 ]
         [ a-1   a0   a1  a2  a3 ]
-        [ a-2  a-1   a0  a1  a2 ] -> [a-4  a-3  a-2  a-1  a0  a1  a2  a3  a4]
+        [ a-2  a-1   a0  a1  a2 ] -> [a4  a3  a2  a1  a0  a-1  a-2  a-3  a-4]
         [ a-3  a-2  a-1  a0  a1 ]
         [ a-4  a-3  a-2  a-1 a0 ]
 
